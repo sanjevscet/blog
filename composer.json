@@ -15,5 +15,10 @@
                 "Sanjeevscet\\Blog\\BlogServiceProvider"
             ]
         }
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sanjeevscet\\Blog\\": "src/"
+        }
+     }
 }
